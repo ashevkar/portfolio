@@ -1,0 +1,37 @@
+/* .projects {
+    padding: 4rem 2rem;
+    background-color: white;
+    padding-top: 50px;
+  }
+  .projects::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .project {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .project a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+   */
