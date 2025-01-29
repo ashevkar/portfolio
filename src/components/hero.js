@@ -14,7 +14,7 @@ import { HiOutlineArrowRight } from "react-icons/hi";
 const Hero = () => {
   return (
     <section id="hero" className="hero">
-      <div class="column">
+      <div class="column-1">
         <div class="profile">
           <div className="pic">
             <img src={pp} alt="Profile picture" />
@@ -27,10 +27,11 @@ const Hero = () => {
 
             <div>
               <p>
-              A Software Engineer who has developed countless innovative solutions.
+                A Software Engineer who has developed countless innovative
+                solutions.
               </p>
-              </div>
-              <div>
+            </div>
+            <div>
               <a href="ashevkar@hawk.iit.edu">
                 <IoIosMail />
               </a>
@@ -44,7 +45,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div class="column-1">
+      <div class="column-2">
         <div class="details">
           <h1>
             SOFTWARE <br />
@@ -55,8 +56,8 @@ const Hero = () => {
             Java, and AWS. I thrive on solving complex problems and building
             meaningful solutions.
           </p>
-          </div>
-          <div class="count">
+        </div>
+        <div class="count">
           <div class="count-1">
             <h2>3+</h2>
             <p>Years of Experience</p>
@@ -70,10 +71,6 @@ const Hero = () => {
             <p>Collaborations</p>
           </div>
         </div>
-        
-        
-
-
 
         <div class="container">
           <div class="box">
