@@ -57,12 +57,12 @@ const Resume = () => {
       <div className="resume-container">
         <div className="resume-heading-container">
           <div className="resume-heading">
-            <h2>My Resume</h2>
+            <h1>RESUME</h1>
           </div>
         </div>
         <div className="resume-content">
           <div className="timeline-container">
-            <ul >
+            <ul>
               <div class="timeline">
                 <li className="timeline-header">
                   <div className="timeline-header-title">
