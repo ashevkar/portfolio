@@ -1,11 +1,10 @@
 import React from 'react';
-import "./about.css";
 
 const About = () => {
   return (
-    <section id="about" className="about">
-      <h2>About Me</h2>
-      <p>I am a passionate Software Developer with experience in React.js, Java, and AWS. I thrive on solving complex problems and building meaningful solutions.</p>
+    <section id="about" className="bg-black text-white pb-52">
+      <h2 className="text-4xl mb-4">About Me</h2>
+      <p className="text-xl mx-auto">I am a passionate Software Developer with experience in React.js, Java, and AWS. I thrive on solving complex problems and building meaningful solutions.</p>
     </section>
   );
 };

@@ -13,7 +13,7 @@ import { HiOutlineArrowRight } from "react-icons/hi";
 
 const Hero = () => {
   return (
-    <section id="hero" className="hero">
+    <section id="hero" className="hero ">
       <div class="column-1">
         <div class="profile">
           <div className="pic">
