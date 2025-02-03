@@ -66,6 +66,9 @@ If you'd like to contribute or provide suggestions, feel free to fork the reposi
 📩 Contact
 Feel free to reach out for collaborations or questions!
 
-Email: aishshevkar@gmail.com
-LinkedIn: https://www.linkedin.com/in/aishwarya-shevkar/
-GitHub: https://github.com/ashevkar
+<p align="center">
+  <a href="mailto:aishshevkar@gmail.com"><img src="https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/aishwarya-shevkar/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/ashevkar"><img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://your-resume-link.com"><img src="https://img.shields.io/badge/Resume-Download-brightgreen?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" /></a>
+</p>
