@@ -14,13 +14,13 @@
 } */
 
 #resume-section {
-  padding: 7em 0;
+  padding: 3rem 0;
   clear: both;
 }
 
 @media screen and (max-width: 768px) {
   #resume-section {
-    padding: 3em 0;
+    padding: 3rem 0;
   }
 }
 

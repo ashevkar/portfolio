@@ -5,11 +5,11 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import pp from "./pp.png";
 import "./hero.css";
-import About from "./About";
 import Skills from "./skills";
 import Resume from "./resume";
 import Projects from "./Projects";
 import { HiOutlineArrowRight } from "react-icons/hi";
+
 
 const Hero = () => {
   return (
