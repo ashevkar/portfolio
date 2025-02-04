@@ -51,6 +51,8 @@ const Resume = () => {
 
   return (
     <div id="resume-section" className="resume-background">
+      
+
       <div className="resume-container">
         <div className="resume-heading-container">
           <div className="resume-heading">
@@ -156,6 +158,7 @@ const Resume = () => {
         </div>
       </div>
     </div>
+   
   );
 };
 

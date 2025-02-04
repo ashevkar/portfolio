@@ -1,5 +1,7 @@
 import React from "react";
 // import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
+
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
@@ -8,6 +10,7 @@ import "./hero.css";
 import Skills from "./skills";
 import Resume from "./resume";
 import Projects from "./Projects";
+import Contact from "./Contact";
 import { HiOutlineArrowRight } from "react-icons/hi";
 
 
@@ -76,11 +79,11 @@ const Hero = () => {
           <div class="box">
             <p id="color1">
               EXPERIENCE
-              <div class="next">
-                <a id="arrow1" href="./resume.js">
-                  <HiOutlineArrowRight />
-                </a>
-              </div>
+              <div className="next">
+      <Link id="arrow1" to="./resume.js">
+        <HiOutlineArrowRight />
+      </Link>
+    </div>
             </p>
             <p id="color2">
               WORK X
@@ -102,6 +105,9 @@ const Hero = () => {
         </div>
         <div>
           <Projects />
+        </div>
+        <div>
+          <Contact />
         </div>
       </div>
     </section>

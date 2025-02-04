@@ -15,7 +15,8 @@ const Projects = () => {
               <div className="overlay">
                 <div className="overlay-content">
                   <h3 className="project-title">{project.title}</h3>
-                  <p className="project-description">{project.description}</p>
+                  <p className="project-skills">Skills: {project.skills}</p>
+                  <p className="project-description">Description: {project.description}</p>
                   <a href={project.link} className="project-link">
                     View Project <ExternalLink size={16} />
                   </a>
