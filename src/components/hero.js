@@ -1,6 +1,6 @@
 import React from "react";
 // import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -13,13 +13,13 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import { HiOutlineArrowRight } from "react-icons/hi";
 
-
 const Hero = () => {
   return (
     <section id="hero" className="hero ">
       <div class="column-1">
         <div class="profile">
           <div className="pic">
+            // eslint-disable-next-line jsx-a11y/img-redundant-alt
             <img src={pp} alt="Profile picture" />
           </div>
 
@@ -78,15 +78,15 @@ const Hero = () => {
         <div class="container">
           <div class="box">
             <p id="color1">
-              EXPERIENCE
+              Resume
               <div className="next">
-      <Link id="arrow1" to="./resume.js">
-        <HiOutlineArrowRight />
-      </Link>
-    </div>
+                <Link id="arrow1" to="./resume.js">
+                  <HiOutlineArrowRight />
+                </Link>
+              </div>
             </p>
             <p id="color2">
-              WORK X
+              WORK EXPERIENCE
               <div class="next">
                 <a id="arrow2" href="https://github.com/ashevkar">
                   <HiOutlineArrowRight />
