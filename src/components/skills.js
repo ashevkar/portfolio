@@ -6,13 +6,13 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   const skills = [
     { name: 'HTML5/CSS3', value: 95, color: 'progress-bar-1' },
-    { name: 'WordPress', value: 90, color: 'progress-bar-2' },
-    { name: 'PHP', value: 80, color: 'progress-bar-3' },
+    { name: 'React', value: 90, color: 'progress-bar-2' },
+    { name: 'Node', value: 80, color: 'progress-bar-3' },
     { name: 'Java', value: 85, color: 'progress-bar-4' },
-    { name: 'Design', value: 100, color: 'progress-bar-5' },
-    { name: 'Ruby', value: 70, color: 'progress-bar-3' },
-    { name: 'Python', value: 85, color: 'progress-bar-1' },
-    { name: 'jQuery', value: 75, color: 'progress-bar-3' },
+    { name: 'TailwindCSS', value: 100, color: 'progress-bar-5' },
+    { name: 'Springboot', value: 70, color: 'progress-bar-1' },
+    { name: 'Python', value: 85, color: 'progress-bar-2' },
+    { name: 'MySQL', value: 75, color: 'progress-bar-3' },
   ];
 
   const barAnimation = {

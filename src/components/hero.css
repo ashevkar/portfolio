@@ -153,6 +153,14 @@
   align-items: center;
   gap: 50px;
 }
+@media (max-width: 700px) {
+.box{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+}
+}
 .box p{
   display: flex;
   position: relative;
