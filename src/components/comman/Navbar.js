@@ -4,19 +4,18 @@ import { FaHome, FaFolder, FaSuitcase, FaTools, FaPencilAlt } from 'react-icons/
 
 const Navbar = () => {
   const navItems = [
-    { icon: <FaHome />, label: 'Home' },
-    { icon: <FaFolder />, label: 'Files' },
-    { icon: <FaSuitcase />, label: 'Projects' },
-    { icon: <FaTools />, label: 'Tools' },
-    { icon: <FaPencilAlt />, label: 'Edit' }
+    { icon: <FaHome />, label: 'Home', link:"/"},
+    { icon: <FaFolder />, label: 'Files' , link:"/skills"},
+    { icon: <FaSuitcase />, label: 'Projects', link:"/resume"},
+    { icon: <FaTools />, label: 'Tools', link:"/project"},
+    { icon: <FaPencilAlt />, label: 'Edit', link:"/contact" }
   ];
 
   return (
     <nav className="navbar">
       <div className="nav-container">
         {navItems.map((item, index) => (
-          // eslint-disable-next-line jsx-a11y/anchor-is-valid
-          <a key={index} href="#" className="nav-item">
+          <a key={index} href={item.link} className="nav-item">
             
             {item.icon}
           </a>

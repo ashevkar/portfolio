@@ -18,8 +18,7 @@ const Hero = () => {
     <section id="hero" className="hero ">
       <div class="column-1">
         <div class="profile">
-          <div className="pic">
-            // eslint-disable-next-line jsx-a11y/img-redundant-alt
+          <div class="pic">
             <img src={pp} alt="Profile picture" />
           </div>
 
