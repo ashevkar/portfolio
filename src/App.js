@@ -5,19 +5,13 @@ import Hero from "./components/hero";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/comman/footer";
 import Navbar from "./components/comman/Navbar";
+import Layout from "./components/layout";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      {/* <Hero/> */}
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        {/* <Route path="/files" element={<Files />} /> */}
-        {/* <Route path="/projects" element={<Projects />} /> */}
-        {/* <Route path="/tools" element={<Tools />} /> */}
-        {/* <Route path="/edit" element={<Edit />} /> */}
-      </Routes>
+      <Layout/>
       <Footer />
     </Router>
   );

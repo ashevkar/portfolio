@@ -6,6 +6,7 @@ import { ExternalLink } from "lucide-react";
 const Projects = () => {
   return (
     <section id="projects" className="projects-section">
+   
       <div className="container-project">
         <h1 className="section-title">Recent Projects</h1>
         <div className="projects-grid">

@@ -1,52 +1,10 @@
 import React from "react";
-// import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-import pp from "./pp.png";
 import "./hero.css";
-import Skills from "./skills";
-import Resume from "./resume";
-import Projects from "./Projects";
-import Contact from "./Contact";
 import { HiOutlineArrowRight } from "react-icons/hi";
 
 const Hero = () => {
   return (
-    <section id="hero" className="hero ">
-      <div class="column-1">
-        <div class="profile">
-          <div class="pic">
-            <img src={pp} alt="Profile picture" />
-          </div>
-
-          <div class="icons">
-            <div className="info">
-              <h2>Aishwarya Shevkar</h2>
-            </div>
-
-            <div>
-              <p>
-                A Software Engineer who has developed countless innovative
-                solutions.
-              </p>
-            </div>
-            <div>
-              <a href="ashevkar@hawk.iit.edu">
-                <IoIosMail />
-              </a>
-              <a href="https://github.com/ashevkar">
-                <FaLinkedin />
-              </a>
-              <a href="https://github.com/ashevkar">
-                <FaGithub />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="column-2">
         <div class="details">
           <h1>
@@ -94,22 +52,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-
-        {/* <div><About/></div> */}
-        <div>
-          <Skills />
-        </div>
-        <div>
-          <Resume />
-        </div>
-        <div>
-          <Projects />
-        </div>
-        <div>
-          <Contact />
-        </div>
       </div>
-    </section>
   );
 };
 
