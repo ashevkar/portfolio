@@ -2,8 +2,6 @@
 
 
 .container-project {
-  /* width: 90%; */
-  /* max-width: 1200px; */
   margin: 0 auto;
   text-align: center;
 }
@@ -11,7 +9,7 @@
 /* Grid Layout */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
   justify-content: center;
 }
@@ -33,7 +31,7 @@
 /* Image */
 .project-image {
   width: 100%;
-  height: 450px;
+  height: 100%;
   object-fit: cover;
   display: block;
   border-radius: 12px 12px 0 0;
@@ -46,7 +44,7 @@
   left: 0;
   width: 100%;
   height: auto;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(35, 34, 34);
   color: white;
   display: flex;
   align-items: flex-end;
@@ -61,28 +59,32 @@
 
 /* Overlay Content */
 .overlay-content {
-  width: 95%;
+  width: 90%;
   text-align: left;
   margin: 0;
 }
 
 .project-title {
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: bold;
+  margin: 0;
+
 }
-.project-skills .project-description{
-  font-size: 1rem;
+.project-skills {
+  font-size: 11px;
   line-height: 25px;
   margin: 0;
+  
 }
 .project-description {
   opacity: 0.7;
+  font-size: 11px;
 }
 
 .project-link {
   display: flex;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 13px;
   gap: 8px;
   color: #64b5f6;
   text-decoration: none;
