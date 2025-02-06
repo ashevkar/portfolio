@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./hero.css";
 import { HiOutlineArrowRight } from "react-icons/hi";
 
+
 const Hero = () => {
   return (
     <div class="column-2">

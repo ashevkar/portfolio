@@ -1,8 +1,4 @@
 import React from "react";
-// import { motion } from "framer-motion";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
 import pp from "./pp.png";
 import "./hero.css";
 import Projects from "./Projects";
@@ -10,6 +6,7 @@ import Contact from "./Contact";
 import Skills from "./skills";
 import Resume from "./resume";
 import Hero from "./hero";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Layout = () => {
   return (
@@ -31,28 +28,38 @@ const Layout = () => {
                 solutions.
               </p>
             </div>
-            <div>
-              <a href="ashevkar@hawk.iit.edu">
-                <IoIosMail />
+            <div className="luc-icons">
+              <a href="mailto:ashevkar@hawk.iit.edu">
+                <Mail />
+              </a>
+              <a href="https://www.linkedin.com/in/aishwarya-shevkar/">
+                <Linkedin />
               </a>
               <a href="https://github.com/ashevkar">
-                <FaLinkedin />
-              </a>
-              <a href="https://github.com/ashevkar">
-                <FaGithub />
+                <Github />
               </a>
             </div>
           </div>
         </div>
       </div>
       <div class="column-2">
-      <main>
-      <section id="home"><Hero /></section>
-      <section id="skills"><Skills /></section>
-      <section id="resume"><Resume /></section>
-      <section id="projects"><Projects /></section>
-      <section id="contact"><Contact /></section>
-    </main>
+        <main>
+          <section id="home">
+            <Hero />
+          </section>
+          <section id="skills">
+            <Skills />
+          </section>
+          <section id="resume">
+            <Resume />
+          </section>
+          <section id="projects">
+            <Projects />
+          </section>
+          <section id="contact">
+            <Contact />
+          </section>
+        </main>
       </div>
     </section>
   );

@@ -25,6 +25,7 @@ const Skills = () => {
 
   return (
     <TransitionWrapper>
+      <section id="skills">
       <div className="row">
         <h1>SKILLS</h1>
         <div className="col-md-6">
@@ -74,7 +75,10 @@ const Skills = () => {
           ))}
         </div>
       </div>
+      </section>
+
     </TransitionWrapper>
+
   );
 };
 

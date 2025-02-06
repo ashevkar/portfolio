@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar.css';
-import { FaHome, FaFolder, FaSuitcase, FaTools, FaPencilAlt } from 'react-icons/fa';
+import { FaHome, FaProjectDiagram, FaFolderOpen, FaAddressBook, FaFileAlt } from 'react-icons/fa';
 import { Link as ScrollLink } from 'react-scroll';
 
 
@@ -8,10 +8,10 @@ import { Link as ScrollLink } from 'react-scroll';
 const Navbar = () => {
   const navItems = [
     { icon: <FaHome />, label: 'Home', link: "home" }, 
-    { icon: <FaFolder />, label: 'Skills', link: "skills" }, 
-    { icon: <FaSuitcase />, label: 'Resume', link: "resume" },
-    { icon: <FaTools />, label: 'Projects', link: "projects" }, 
-    { icon: <FaPencilAlt />, label: 'Contact', link: "contact" } 
+    { icon: <FaProjectDiagram />, label: 'Skills', link: "skills" }, 
+    { icon: <FaFileAlt />, label: 'Resume', link: "resume" },
+    { icon: <FaFolderOpen />, label: 'Projects', link: "projects" }, 
+    { icon: <FaAddressBook />,label: 'Contact', link: "contact" } 
   ];
 
   return (
@@ -23,9 +23,10 @@ const Navbar = () => {
          to={item.link}
          spy={true}
          smooth={true}
-         offset={-70}
-         duration={200}
+         offset={0}
+         duration={100}
          className="nav-item"
+         title={item.label}
        >
          {item.icon}
        </ScrollLink>
