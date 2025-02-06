@@ -50,6 +50,7 @@ const Resume = () => {
   ];
 
   return (
+    <section id="resume">
     <div id="resume-section" className="resume-background">
       
 
@@ -158,7 +159,7 @@ const Resume = () => {
         </div>
       </div>
     </div>
-   
+    </section>
   );
 };
 
