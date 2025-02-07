@@ -1,6 +1,7 @@
 .row{
   box-sizing: border-box;
   color: whitesmoke;
+  overflow: hidden;
 }
 .progress-wrap {
   width: 48%;

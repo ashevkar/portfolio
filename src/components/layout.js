@@ -19,7 +19,7 @@ const Layout = () => {
 
           <div class="icons">
             <div className="info">
-              <h2>Aishwarya Shevkar</h2>
+              <h3>Aishwarya Shevkar</h3>
             </div>
 
             <div>
@@ -53,6 +53,7 @@ const Layout = () => {
           <section id="resume">
             <Resume />
           </section>
+
           <section id="projects">
             <Projects />
           </section>
