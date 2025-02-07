@@ -1,15 +1,30 @@
-import React from "react";
+import React, { lazy } from "react";
 import pp from "./pp.png";
 import "./hero.css";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Skills from "./skills";
-import Resume from "./resume";
-import Hero from "./hero";
 import { Github, Linkedin, Mail } from "lucide-react";
+import LazyLoader from "./LazyLoader";
+import Hero from "./hero"
+
+
+
+// const Hero = lazy(() => 
+//   new Promise((resolve) => setTimeout(() => resolve(import("./hero")), 2000))
+// );
+
+const Projects = lazy(() => import("./Projects"));
+const Contact = lazy(() => import("./Contact"));
+const Skills = lazy(() => import("./skills"));
+const Resume = lazy(() => import("./resume"));
+// const Hero = lazy(() => import("./hero"));
+const Navbar = lazy(() => import("./comman/Navbar"));
+const Footer = lazy(() => import("./comman/footer"));
+
 
 const Layout = () => {
   return (
+    <>
+   <LazyLoader component={Navbar} />
+
     <section id="hero" className="hero ">
       <div class="column-1">
         <div class="profile">
@@ -43,26 +58,29 @@ const Layout = () => {
         </div>
       </div>
       <div class="column-2">
-        <main>
+      <main>
           <section id="home">
-            <Hero />
+            {/* <LazyLoader component={Hero} /> */}
+            <Hero/>
           </section>
           <section id="skills">
-            <Skills />
+            <LazyLoader component={Skills} />
           </section>
           <section id="resume">
-            <Resume />
+            <LazyLoader component={Resume} />
           </section>
-
           <section id="projects">
-            <Projects />
+            <LazyLoader component={Projects} />
           </section>
           <section id="contact">
-            <Contact />
+            <LazyLoader component={Contact} />
           </section>
         </main>
       </div>
     </section>
+    <LazyLoader component={Footer} />
+
+    </>
   );
 };
 

@@ -23,7 +23,7 @@ const Navbar = () => {
          to={item.link}
          spy={true}
          smooth={true}
-         offset={-50}
+         offset={0}
          duration={100}
          className="nav-item"
          title={item.label}
