@@ -1,10 +1,13 @@
-import React, {lazy} from "react";
+import React, { lazy } from "react";
 import "./styles/global.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import LazyLoader from "./components/LazyLoader";
+import LazyLoader from "./assets/LazyLoader";
 
-const Layout = lazy(() => 
-  new Promise((resolve) => setTimeout(() => resolve(import("./components/layout")), 3000))
+const Layout = lazy(
+  () =>
+    new Promise((resolve) =>
+      setTimeout(() => resolve(import("./assets/layout")), 10)
+    )
 );
 
 function App() {

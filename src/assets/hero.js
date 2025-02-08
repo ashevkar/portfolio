@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./hero.css";
+import "./css/hero.css";
 import { HiOutlineArrowRight } from "react-icons/hi";
-
 
 const Hero = () => {
   return (
@@ -34,28 +33,27 @@ const Hero = () => {
       </div>
 
       <div class="container-box">
-          <div class="box">
-            <p id="color1">
-              RESUME
-              <div className="next">
-                <Link id="arrow1" to="./resume.js">
-                  <HiOutlineArrowRight />
-                </Link>
-              </div>
-            </p>
-            <p id="color2">
-              WORK EXPERIENCE
-              <div class="next">
-                <a id="arrow2" href="https://github.com/ashevkar">
-                  <HiOutlineArrowRight />
-                </a>
-              </div>
-            </p>
-          </div>
+        <div class="box">
+          <p id="color1">
+            RESUME
+            <div className="next">
+              <Link id="arrow1" to="./resume.js">
+                <HiOutlineArrowRight />
+              </Link>
+            </div>
+          </p>
+          <p id="color2">
+            WORK EXPERIENCE
+            <div class="next">
+              <a id="arrow2" href="https://github.com/ashevkar">
+                <HiOutlineArrowRight />
+              </a>
+            </div>
+          </p>
         </div>
-   
       </div>
-      );
+    </div>
+  );
 };
 
-      export default Hero;
+export default Hero;

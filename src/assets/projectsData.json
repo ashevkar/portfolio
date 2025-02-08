@@ -1,0 +1,23 @@
+[
+  {
+    "title": "E-commerce Website",
+    "skills": "React.js, Tailwind CSS, Azure, API, JSON, AI chatbot",
+    "description": "Built a comprehensive e-commerce platform using React.js, and Tailwind CSS with dynamic product listings. Integrated an AI chatbot for user interaction and optimized API fetching for performance. Automated CI/CD with GitHub Actions for seamless Azure deployment.",
+    "image": "https://media.licdn.com/dms/image/v2/D4D12AQGnA-5Vkk48eA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698320483594?e=2147483647&v=beta&t=g924VOpzUgBry3vE_U98xC-RsV8y0AvkuJMSC_M4ScM",
+    "link": "https://github.com/ashevkarIIT/e-commerce"
+  },
+  {
+    "title": "Hospital Management System",
+    "skills": "Core Java, JSF, MySQL, MVC Architecture, J2EE.",
+    "description": "Developed a role-based hospital management system with Java, JSF, and MySQL, optimizing appointment scheduling and patient management. Implemented a multi-layer MVC architecture and created interactive dashboards for improved usability.",
+    "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=800&q=80",
+    "link": "https://github.com/ashevkar/HospitalManagement"
+  },
+  {
+    "title": "Restaurant Discovery Platform",
+    "skills": "Core Java, JDBC, OOP.",
+    "description": "Developed a Restaurant Discovery Platform with role-based access (Admin, Manager, User) for streamlined restaurant management and browsing. Integrated OOP, Inheritance, Collections, and JDBC for efficient data handling and smooth user experience.",
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80",
+    "link": "https://github.com/ashevkar/Restaurant-Discovery"
+  }
+]

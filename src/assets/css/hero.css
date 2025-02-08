@@ -11,7 +11,6 @@
   margin: 0;
   width: auto;
   /* overflow-x: hidden; */
-
 }
 @media (max-width: 800px) {
   .hero {
@@ -26,7 +25,6 @@
 .hero:after {
   display: table;
   clear: both;
-  
 }
 
 .column-1 {
@@ -35,7 +33,6 @@
   box-sizing: border-box;
   display: flex;
   justify-content: flex-end;
-
 }
 .column-2 {
   padding: 10px;
@@ -48,8 +45,6 @@
     width: 100%;
     justify-items: center;
     justify-content: center;
-
-    
   }
 }
 
@@ -59,7 +54,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 14px;
-  height: 350px;
+  height: 400px;
   width: 200px;
   justify-content: center;
   overflow: hidden;
@@ -69,28 +64,28 @@
   border-radius: 16px;
   position: sticky;
   top: 40px;
-
 }
 @media (max-width: 800px) {
   .profile {
     position: relative;
     padding: 20px 150px;
     height: auto;
-    top:0;
+    top: 0;
   }
 }
 
 .icons {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 3rem;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .icons a {
   color: #f46c38;
   font-size: x-small;
 }
-.luc-icons{
+.luc-icons {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -117,12 +112,15 @@
   margin: 0;
 }
 @media (max-width: 800px) {
-  .details, .details p, .details span {
+  .details,
+  .details p,
+  .details span {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 30rem;
-  }}
+  }
+}
 
 .details h1 span {
   color: rgba(182, 180, 189, 0.2);
@@ -178,12 +176,12 @@
 }
 #color1 {
   background-color: #f46c38;
-  background-image: url("./box1.svg");
+  background-image: url("../images/box1.svg");
 }
 #color2 {
   background-color: rgb(197, 255, 65);
   color: black;
-  background-image: url("./box2.svg");
+  background-image: url("../images/box2.svg");
   background-repeat: repeat;
   background-size: 200px 0px;
 }
@@ -196,17 +194,33 @@
   flex-direction: row;
   gap: 100px;
   text-transform: uppercase;
-
 }
 .count p {
   width: 50px;
   color: #998f8f;
 }
-.count h2 {
-  /* font-size: 30px; */
-}
+
 .count-1 {
   line-height: 80%;
 }
 
-
+.line2 {
+  background-image: url("../images/up.svg");
+  width: 50%;
+  height: 166px;
+  position: absolute;
+  width: 270px;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  top: -80px;
+}
+.line1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  top: 20px;
+  right: 60px;
+  background-image: url("../images/down.svg");
+}

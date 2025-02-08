@@ -1,6 +1,5 @@
 /* General Styling */
 
-
 .container-project {
   margin: 0 auto;
   text-align: center;
@@ -68,13 +67,11 @@
   font-size: 15px;
   font-weight: bold;
   margin: 0;
-
 }
 .project-skills {
   font-size: 11px;
   line-height: 25px;
   margin: 0;
-  
 }
 .project-description {
   opacity: 0.7;
