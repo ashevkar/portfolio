@@ -19,17 +19,17 @@ const Hero = () => {
       </div>
       <div class="count">
         <div class="count-1">
-          <h2>3+</h2>
+          <h2>2+</h2>
           <p>Years of Experience</p>
         </div>
         <div class="count-1">
-          <h2>10+</h2>
+          <h2>5+</h2>
           <p>Projects Completed</p>
         </div>
-        <div class="count-1">
-          <h2>5+</h2>
+        {/* <div class="count-1">
+          <h2>2+</h2>
           <p>Collaborations</p>
-        </div>
+        </div> */}
       </div>
 
       <div class="container-box">

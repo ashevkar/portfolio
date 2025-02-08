@@ -127,7 +127,7 @@
 }
 
 .details p {
-  max-width: 60rem;
+  max-width: 50rem;
   color: var(--token-0cfe00f3-24b0-432c-968d-12e5103b3a36, #998f8f);
 }
 
@@ -196,7 +196,7 @@
   text-transform: uppercase;
 }
 .count p {
-  width: 50px;
+  width: 80px;
   color: #998f8f;
 }
 
