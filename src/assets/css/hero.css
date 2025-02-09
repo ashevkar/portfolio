@@ -2,17 +2,15 @@
   display: flex;
   background-color: black;
   color: white;
-  padding: 0 100px;
+  padding: 0 50px;
   box-sizing: border-box;
-  justify-content: center;
   flex-wrap: nowrap;
   flex-direction: row;
   gap: 50px;
   margin: 0;
   width: auto;
-  /* overflow-x: hidden; */
 }
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .hero {
     padding: 0 40px;
     display: flex;
@@ -28,7 +26,7 @@
 }
 
 .column-1 {
-  width: 40%;
+  width: 25%;
   padding: 10px;
   box-sizing: border-box;
   display: flex;
@@ -39,7 +37,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .column-2,
   .column-1 {
     width: 100%;
@@ -65,7 +63,7 @@
   position: sticky;
   top: 40px;
 }
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .profile {
     position: relative;
     padding: 20px 150px;
@@ -99,7 +97,7 @@
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .details {
     justify-content: center;
     justify-items: center;
@@ -111,7 +109,7 @@
   line-height: 1;
   margin: 0;
 }
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .details,
   .details p,
   .details span {
@@ -196,7 +194,7 @@
   text-transform: uppercase;
 }
 .count p {
-  width: 80px;
+  width: 90px;
   color: #998f8f;
 }
 
@@ -207,20 +205,20 @@
 .line2 {
   background-image: url("../images/up.svg");
   width: 50%;
-  height: 166px;
+  height: 20%;
   position: absolute;
-  width: 270px;
   background-repeat: no-repeat;
-  background-size: 50% 100%;
-  top: -80px;
+  background-size: 100% 100%;
+  top: -25px;
+  left: 0;
 }
 .line1 {
-  width: 100%;
-  height: 100%;
+  width:270px ;
+  height:166px;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 50% 100%;
-  top: 20px;
-  right: 60px;
+  bottom: 101px;
+  left: -77px;
   background-image: url("../images/down.svg");
 }

@@ -2,13 +2,10 @@
   padding: 0.5rem;
   top: 0;
   width: 100%;
-  margin-bottom: 40px ;
-  
 }
 
 .nav-container {
-    background-color: #1a1a1a;
-
+  background-color: #1a1a1a;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -29,5 +26,5 @@
 }
 
 .nav-item:hover {
-  color: #04AA6D;
+  color: #04aa6d;
 }

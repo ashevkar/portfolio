@@ -1,83 +1,81 @@
-import React, { lazy } from "react";
+import React, { useEffect } from "react";
 import pp from "./images/pp.png";
 import "./css/hero.css";
 import { Github, Linkedin, Mail } from "lucide-react";
-import LazyLoader from "./LazyLoader";
-import Hero from "./hero";
-
-// const Hero = lazy(() =>
-//   new Promise((resolve) => setTimeout(() => resolve(import("./hero")), 2000))
-// );
-
-const Projects = lazy(() => import("./Projects"));
-const Contact = lazy(() => import("./Contact"));
-const Skills = lazy(() => import("./skills"));
-const Resume = lazy(() => import("./resume"));
-const Navbar = lazy(() => import("../components/Navbar"));
-const Footer = lazy(() => import("../components/footer"));
+import TransitionWrapper from "./TransitionWrapper";
+import Hero from "./Hero";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Resume from "./Resume";
 
 const Layout = () => {
-  return (
-    <>
-      <LazyLoader component={Navbar} />
 
-      <section id="hero" className="hero ">
-        <div class="column-1">
-          <div class="profile">
-            <p class="line1"></p>
-            <p class="line2"></p>
-            <div class="pic">
-              <img src={pp} alt="Aishwarya Shevkar" />
+  return (
+    <section id="hero" className="hero ">
+      <div class="column-1">
+        <div class="profile">
+          <p class="line1"></p>
+          <p class="line2"></p>
+          <div class="pic">
+            <img src={pp} alt="Aishwarya Shevkar" />
+          </div>
+
+          <div class="icons">
+            <div className="info">
+              <h3>Aishwarya Shevkar</h3>
             </div>
 
-            <div class="icons">
-              <div className="info">
-                <h3>Aishwarya Shevkar</h3>
-              </div>
-
-              <div>
-                <p>
-                  A Software Engineer who has developed countless innovative
-                  solutions.
-                </p>
-                <div className="luc-icons">
-                  <a href="mailto:ashevkar@hawk.iit.edu">
-                    <Mail />
-                  </a>
-                  <a href="https://www.linkedin.com/in/aishwarya-shevkar/">
-                    <Linkedin />
-                  </a>
-                  <a href="https://github.com/ashevkar">
-                    <Github />
-                  </a>
-                </div>
+            <div>
+              <p>
+                A Software Engineer who has developed countless innovative
+                solutions.
+              </p>
+              <div className="luc-icons">
+                <a href="mailto:ashevkar@hawk.iit.edu">
+                  <Mail />
+                </a>
+                <a href="https://www.linkedin.com/in/aishwarya-shevkar/">
+                  <Linkedin />
+                </a>
+                <a href="https://github.com/ashevkar">
+                  <Github />
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div class="column-2">
-          <main>
+      </div>
+      <div class="column-2">
+        <main>
+          <TransitionWrapper>
             <section id="home">
-              {/* <LazyLoader component={Hero} /> */}
               <Hero />
             </section>
+          </TransitionWrapper>
+          <TransitionWrapper>
             <section id="skills">
-              <LazyLoader component={Skills} />
+              <Skills />
             </section>
+          </TransitionWrapper>
+          <TransitionWrapper>
             <section id="resume">
-              <LazyLoader component={Resume} />
+              <Resume />
             </section>
+          </TransitionWrapper>
+          <TransitionWrapper>
             <section id="projects">
-              <LazyLoader component={Projects} />
+              <Projects />
             </section>
+          </TransitionWrapper>
+          <TransitionWrapper>
             <section id="contact">
-              <LazyLoader component={Contact} />
+              <Contact />
             </section>
-          </main>
-        </div>
-      </section>
-      <LazyLoader component={Footer} />
-    </>
+          </TransitionWrapper>
+        </main>
+      </div>
+    </section>
   );
 };
 

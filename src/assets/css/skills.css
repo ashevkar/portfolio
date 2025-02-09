@@ -15,17 +15,16 @@
 @media screen and (max-width: 768px) {
   .progress-wrap {
     width: 100%;
-    float: none;
-    margin-right: 0;
+    height: 40px;
   }
 }
 .progress-wrap h3 {
-  font-size: 13px;
   display: block;
   margin-bottom: 10px;
   float: left;
   width: 100%;
   color: white;
+  font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
 }
 .progress-wrap h3 .name-left {
   float: left;
@@ -37,7 +36,7 @@
 .progress {
   width: 100%;
   float: left;
-  height: 5px;
+  height: 20px;
   box-shadow: none;
 }
 

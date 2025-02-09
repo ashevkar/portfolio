@@ -16,11 +16,11 @@
   clear: both;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #resume-section {
     padding: 3rem 0;
   }
-}
+} */
 
 .resume-heading-container {
   margin-bottom: 2rem;
@@ -34,7 +34,7 @@
 
 /* line */
 .timeline:before {
-  top: 50px;
+  top: 40px;
   bottom: 0;
   position: absolute;
   content: " ";
@@ -78,11 +78,11 @@
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .timeline > .timeline-item {
     margin-bottom: 4em;
   }
-}
+} */
 
 .timeline > .timeline-item:before,
 .timeline > .timeline-item:after {
@@ -130,7 +130,7 @@
 
 @media screen and (max-width: 768px) {
   .timeline > .timeline-item > .timeline-badge {
-    margin-left: -10px !important;
+    /* margin-left: -10px !important; */
   }
 }
 
@@ -179,7 +179,7 @@
 
 @media (max-width: 762px) {
   .timeline:before {
-    left: 70px;
+    left: 65px;
   }
 }
 

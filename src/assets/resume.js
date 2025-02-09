@@ -2,6 +2,7 @@ import React from "react";
 import "./css/resume.css"; // Importing the CSS file
 import { FaGraduationCap } from "react-icons/fa6";
 import { FaSuitcase } from "react-icons/fa6";
+import TransitionWrapper from "./TransitionWrapper";
 
 const Resume = () => {
   const workExperience = [
@@ -59,8 +60,11 @@ const Resume = () => {
         </div>
         <div className="resume-content">
           <div className="timeline-container">
+            
             <ul>
+
               <div class="education">
+                <TransitionWrapper>
                 <h3 className="heading">Education</h3>
 
                 <div class="timeline">
@@ -94,11 +98,13 @@ const Resume = () => {
                     </li>
                   ))}
                 </div>
+                </TransitionWrapper>
               </div>
 
               <br />
 
               <div class="work-experience">
+                <TransitionWrapper>
                 <h3 className="heading">Work Experience</h3>
 
                 <div class="timeline">
@@ -147,7 +153,9 @@ const Resume = () => {
                     </li>
                   ))}
                 </div>
+                </TransitionWrapper>
               </div>
+              
             </ul>
           </div>
         </div>

@@ -1,5 +1,5 @@
-.loader-container {
-  position: fixed; /* Ensures it's positioned relative to the viewport */
+/* .loader-container {
+  position: fixed; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -10,10 +10,9 @@
   height: 100vh;
 }
 .placeholder {
-  background-color: #000000; /* Grey box before content loads */
+  background-color: #000000; 
 }
 
-/* HTML: <div class="loader"></div> */
 .loader {
   width: 60px;
   aspect-ratio: 1;
@@ -48,4 +47,4 @@
   100% {
     background: conic-gradient(#f46c38 360deg, #0000 360deg);
   }
-}
+} */

@@ -1,19 +1,17 @@
-import React, { lazy } from "react";
+import React from "react";
 import "./styles/global.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import LazyLoader from "./assets/LazyLoader";
-
-const Layout = lazy(
-  () =>
-    new Promise((resolve) =>
-      setTimeout(() => resolve(import("./assets/layout")), 10)
-    )
-);
+import Navbar from "./components/Navbar";
+import Layout from "./assets/Layout";
+import Footer from "./components/Footer";
+import TransitionWrapper from "./assets/TransitionWrapper";
 
 function App() {
   return (
     <Router>
-      <LazyLoader component={Layout} />
+      <Navbar />
+      <Layout />
+      <Footer />
     </Router>
   );
 }
