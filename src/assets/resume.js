@@ -63,11 +63,11 @@ const Resume = () => {
             
             <ul>
 
-              <div class="education">
+              <div className="education">
                 <TransitionWrapper>
                 <h3 className="heading">Education</h3>
 
-                <div class="timeline">
+                <div className="timeline">
                   <li className="timeline-header">
                     <div className="timeline-header-title"></div>
                   </li>
@@ -103,11 +103,11 @@ const Resume = () => {
 
               <br />
 
-              <div class="work-experience">
+              <div className="work-experience">
                 <TransitionWrapper>
                 <h3 className="heading">Work Experience</h3>
 
-                <div class="timeline">
+                <div className="timeline">
                   <li className="timeline-header">
                     <div className="timeline-header-title"></div>
                   </li>

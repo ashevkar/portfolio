@@ -18,10 +18,10 @@ function Contact() {
 
     emailjs
       .send(
-        "service_zncvu2i", // Replace with your Email.js service ID
-        "template_xc13p4a", // Replace with your Email.js template ID
+        "service_zncvu2i", // your Email.js service ID
+        "template_xc13p4a", //  your Email.js template ID
         formData,
-        "qm29gyp7ThT8v1Qc1" // Replace with your Email.js public key
+        "qm29gyp7ThT8v1Qc1" // your Email.js public key
       )
       .then(
         (response) => {
@@ -36,7 +36,7 @@ function Contact() {
 
   return (
     <div className="contact-container">
-      <h1>LET'S WORK TOGETHER</h1>
+      <h1>LETS WORK TOGETHER</h1>
       <br />
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">

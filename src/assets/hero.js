@@ -5,8 +5,8 @@ import { HiOutlineArrowRight } from "react-icons/hi";
 
 const Hero = () => {
   return (
-    <div class="column-2">
-      <div class="details">
+    <div className="column-2">
+      <div className="details">
         <h1>
           SOFTWARE <br />
           <span className="two">DEVELOPER</span>
@@ -17,12 +17,12 @@ const Hero = () => {
           meaningful solutions.
         </p>
       </div>
-      <div class="count">
-        <div class="count-1">
+      <div className="count">
+        <div className="count-1">
           <h2>2+</h2>
           <p>Years of Experience</p>
         </div>
-        <div class="count-1">
+        <div className="count-1">
           <h2>5+</h2>
           <p>Projects Completed</p>
         </div>
@@ -32,8 +32,8 @@ const Hero = () => {
         </div> */}
       </div>
 
-      <div class="container-box">
-        <div class="box">
+      <div className="container-box">
+        <div className="box">
           <p id="color1">
             RESUME
             <div className="next">
@@ -44,7 +44,7 @@ const Hero = () => {
           </p>
           <p id="color2">
             WORK EXPERIENCE
-            <div class="next">
+            <div className="next">
               <a id="arrow2" href="https://github.com/ashevkar">
                 <HiOutlineArrowRight />
               </a>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import pp from "./images/pp.png";
 import "./css/hero.css";
 import { Github, Linkedin, Mail } from "lucide-react";
@@ -13,15 +13,15 @@ const Layout = () => {
 
   return (
     <section id="hero" className="hero ">
-      <div class="column-1">
-        <div class="profile">
-          <p class="line1"></p>
-          <p class="line2"></p>
-          <div class="pic">
+      <div className="column-1">
+        <div className="profile">
+          <p className="line1"></p>
+          <p className="line2"></p>
+          <div className="pic">
             <img src={pp} alt="Aishwarya Shevkar" />
           </div>
 
-          <div class="icons">
+          <div className="icons">
             <div className="info">
               <h3>Aishwarya Shevkar</h3>
             </div>
@@ -46,7 +46,7 @@ const Layout = () => {
           </div>
         </div>
       </div>
-      <div class="column-2">
+      <div className="column-2">
         <main>
           <TransitionWrapper>
             <section id="home">
