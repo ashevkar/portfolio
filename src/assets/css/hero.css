@@ -75,7 +75,7 @@
 .icons {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   justify-content: center;
   margin-bottom: 40px;
 }
@@ -203,7 +203,7 @@
 }
 
 .line2 {
-  background-image: url("../images/up.svg");
+  /* background-image: url("../images/up.svg"); */
   width: 50%;
   height: 20%;
   position: absolute;
@@ -220,5 +220,5 @@
   background-size: 50% 100%;
   bottom: 101px;
   left: -77px;
-  background-image: url("../images/down.svg");
+  /* background-image: url("../images/down.svg"); */
 }
