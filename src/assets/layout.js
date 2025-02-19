@@ -26,7 +26,7 @@ const Layout = () => {
               <h3>Aishwarya Shevkar</h3>
             </div>
 
-            <div>
+            <div className="">
               <p>
                 A Software Engineer who has developed countless innovative
                 solutions.

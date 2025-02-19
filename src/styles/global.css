@@ -4,11 +4,9 @@ html {
 body {
   font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   color: #e2e2e2;
   background: #000000;
-  margin: 0;
-  padding: 0;
   align-items: center;
   box-sizing: border-box;
 }
@@ -24,11 +22,11 @@ h2 {
 h3 {
   margin: 0;
   font-size: 17px;
-  font-weight: bolder;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Verdana, sans-serif;
 }
 
 p {
   line-height: normal;
-  font-size: 16px;
+  font-size: 14px;
 }
+
