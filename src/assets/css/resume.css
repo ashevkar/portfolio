@@ -94,26 +94,11 @@
 }
 
 .timeline > .timeline-item > .timeline-panel {
-  /* width: 45%; */
   float: left;
   margin-bottom: 0;
-  /* position: relative; */
   padding-left: 50px;
   border-radius: 4px;
 }
-
-@media screen and (max-width: 768px) {
-  .timeline > .timeline-item > .timeline-panel {
-    width: 85% !important;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .timeline > .timeline-item > .timeline-panel {
-    width: 75% !important;
-  }
-}
-
 .timeline > .timeline-item > .timeline-badge {
   color: #10a4f3;
   width: 25px;
@@ -124,12 +109,6 @@
   left: -10px;
   background-color: #ffffff;
   border-radius: 50%;
-}
-
-@media screen and (max-width: 768px) {
-  .timeline > .timeline-item > .timeline-badge {
-    /* margin-left: -10px !important; */
-  }
 }
 
 .timeline > .timeline-item > .timeline-badge i {
