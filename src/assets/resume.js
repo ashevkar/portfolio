@@ -20,15 +20,15 @@ const Resume = () => {
       ],
     },
     {
-      title: "Test Engineer",
+      title: "Frontend Developer",
       company: "GlobalStep",
       duration: "2020 - 2022",
       description: [
-        "        Conducted exploratory testing to identify defects and ensure comprehensive coverage of software features.",
-        "Utilized bug-tracking tools like JIRA to document, prioritize, and manage defects, ensuring smooth communication with the development team.",
-        "Collaborated with developers to optimize test plans and improve defect resolution processes, enhancing overall product quality.",
-        "Performed compatibility and performance testing across different platforms, ensuring seamless functionality across devices and operating systems.",
-        "Reviewed design specifications to ensure clarity and testability, contributing to early detection of issues before development.",
+        "Developed and maintained responsive web applications using AngularJS, React.js, and JavaScript, enhancing user experience and performance.",
+        "Implemented cross-browser and cross-device compatibility features to ensure seamless functionality across multiple platforms.",
+        "Utilized JIRA for tracking development tasks and bug fixes, streamlining the agile workflow.",
+        "Automated end-to-end testing with Cypress, Jest, reducing manual efforts by 30%.",
+        "Optimized frontend performance with lazy loading, code splitting for a seamless experience."
       ],
     },
   ];
