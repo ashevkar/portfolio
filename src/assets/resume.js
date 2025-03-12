@@ -9,7 +9,7 @@ const Resume = () => {
     {
       title: "Web Developer",
       company: "Anikaay Integration",
-      duration: "2022 - 2023",
+      duration: "Mar 2022 – Jun 2023",
       description: [
         "Developed and maintained dynamic web applications using React.js, Node.js, and Redux, ensuring high performance and a seamless user experience.",
         "Integrated third-party APIs (e.g., payment gateways, weather APIs) and optimized frontend performance with lazy loading, code splitting, and web vitals, achieving a 15% faster load time.",
@@ -22,7 +22,7 @@ const Resume = () => {
     {
       title: "Frontend Developer",
       company: "GlobalStep",
-      duration: "2020 - 2022",
+      duration: "Aug 2020 – Mar 2022",
       description: [
         "Developed and maintained responsive web applications using AngularJS, React.js, and JavaScript, enhancing user experience and performance.",
         "Implemented cross-browser and cross-device compatibility features to ensure seamless functionality across multiple platforms.",
@@ -36,15 +36,15 @@ const Resume = () => {
   const education = [
     {
       title: "Masters Degree",
-      institution: "University Name",
-      duration: "2007 - 2009",
+      institution: "Illinois Institute of Technology",
+      duration: "Expected May 2025",
       description:
         "Key Courses: Advanced Software Engineering, Data Structures and Algorithms, Web Application Development, Cloud Computing and DevOps, Database Systems and Management.",
     },
     {
       title: "Bachelors Degree",
-      institution: "University Name",
-      duration: "2002 - 2006",
+      institution: "Jayawantrao Sawant College of Engineering",
+      duration: "June 2016 - April 2020",
       description:
         "Key Courses: C, Data Structures, Java, Software Modeling, Data Analytics, Database Management.",
     },
