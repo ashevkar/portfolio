@@ -19,7 +19,7 @@ const Hero = () => {
       </div>
       <div className="count">
         <div className="count-1">
-          <h2>2+</h2>
+          <h2>3+</h2>
           <p>Years of Experience</p>
         </div>
         <div className="count-1">
@@ -34,19 +34,20 @@ const Hero = () => {
 
       <div className="container-box">
         <div className="box">
+        <a id="arrow1" href="https://drive.google.com/file/d/1P98jd7h9oYTYlWaViJTMRbL0peYdHWiF/view?usp=drive_link">
           <p id="color1">
             RESUME
-            <div className="next">
-              <Link id="arrow1" to="./resume.js">
+            {/* <div className="next">
                 <HiOutlineArrowRight />
-              </Link>
-            </div>
+            </div> */}
           </p>
+          </a>
+
           <p id="color2">
-            WORK EXPERIENCE
+             EXPERIENCE
             <div className="next">
               <a id="arrow2" href="https://github.com/ashevkar">
-                <HiOutlineArrowRight />
+                {/* <HiOutlineArrowRight /> */}
               </a>
             </div>
           </p>
