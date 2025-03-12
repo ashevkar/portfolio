@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! Built with React.js, this project highlights my skills, experience, and software development projects.
 
-### 🚀 [Live Demo](https://ashevkar.github.io/)
+### 🚀 [Live Demo](https://ashevkar.github.io/portfolio/)
 Check out the live version of my portfolio!
 
 ---
