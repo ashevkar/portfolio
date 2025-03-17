@@ -10,7 +10,7 @@ Check out the live version of my portfolio!
 ### 🛠️ **Technologies Used**
 - **Frontend:** React.js, Tailwind CSS (or other styling frameworks/libraries)
 - **Deployment:** GitHub Pages
-- **Tools:** Redux (if used), React Router, Axios, etc.
+- **Tools:** React Router, Link, React-Icons etc.
 
 ---
 
@@ -50,32 +50,6 @@ To run the project locally, follow these steps:
 
 ---
 
-### 🛡️ **Deployment**
-1. Build the project:
-    ```bash
-    npm run build
-    ```
-
-2. Upload the `build` folder to your preferred hosting service (e.g., Netlify, Vercel).
-
----
-
-### 🛠️ **Future Enhancements**
-- Add animations and transitions for enhanced user interaction.
-- Integrate a blog section to share insights and articles.
-- Track user interactions with analytics.
-
----
-
-### 🤝 **Contributing**
-Feel free to fork this repository and create pull requests. For suggestions or collaborations, reach out via the contact form on the portfolio.
-
----
-
-### 📩 **Contact**
-For collaborations or inquiries, contact me via the links below!
-
----
 
 <p align="center">
   <a href="mailto:aishshevkar@gmail.com"><img src="https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
