@@ -34,7 +34,7 @@ const Hero = () => {
 
       <div className="container-box">
         <div className="box">
-        <a id="arrow1" href="https://drive.google.com/file/d/1P98jd7h9oYTYlWaViJTMRbL0peYdHWiF/view?usp=drive_link">
+        <a id="arrow1" href="https://drive.google.com/file/d/1VgtSvjpUrQqb9QzLe7Z2fLQ3P5_9G0Yg/view?usp=drive_link">
           <p id="color1">
             RESUME
             {/* <div className="next">
