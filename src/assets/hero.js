@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./css/hero.css";
-import { HiOutlineArrowRight } from "react-icons/hi";
+// import { HiOutlineArrowRight } from "react-icons/hi";
 
 const Hero = () => {
   return (
