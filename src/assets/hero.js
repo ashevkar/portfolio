@@ -34,7 +34,11 @@ const Hero = () => {
 
       <div className="container-box">
         <div className="box">
+<<<<<<< HEAD
         <a id="arrow1" href="https://drive.google.com/file/d/1VgtSvjpUrQqb9QzLe7Z2fLQ3P5_9G0Yg/view">
+=======
+        <a id="arrow1" href="https://drive.google.com/file/d/1VgtSvjpUrQqb9QzLe7Z2fLQ3P5_9G0Yg/view?usp=drive_link">
+>>>>>>> ba9945e452bc6ddcc8f276a33e668d78d5d60867
           <p id="color1">
             RESUME
             {/* <div className="next">
