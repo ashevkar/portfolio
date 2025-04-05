@@ -1,23 +1,38 @@
 [
   {
-    "title": "E-commerce Website",
+    "title": "AI-Enhanced Retail Experience",
     "skills": "React.js, Tailwind CSS, Azure, API, JSON, AI chatbot",
-    "description": "Built a comprehensive e-commerce platform using React.js, and Tailwind CSS with dynamic product listings. Integrated an AI chatbot for user interaction and optimized API fetching for performance. Automated CI/CD with GitHub Actions for seamless Azure deployment.",
+    "description": "Developed a scalable e-commerce platform with dynamic features, AI-driven support, and streamlined deployment.",
     "image": "https://media.licdn.com/dms/image/v2/D4D12AQGnA-5Vkk48eA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698320483594?e=2147483647&v=beta&t=g924VOpzUgBry3vE_U98xC-RsV8y0AvkuJMSC_M4ScM",
     "link": "https://github.com/ashevkarIIT/e-commerce"
   },
   {
-    "title": "Hospital Management System",
+    "title": "Innovative Role-Driven Healthcare Platform",
     "skills": "Core Java, JSF, MySQL, MVC Architecture, J2EE.",
-    "description": "Developed a role-based hospital management system with Java, JSF, and MySQL, optimizing appointment scheduling and patient management. Implemented a multi-layer MVC architecture and created interactive dashboards for improved usability.",
-    "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=800&q=80",
+    "description": "Built a role-based hospital management system with efficient scheduling, patient management, and user-friendly dashboards.",
+    "image": "https://sellbery.com/wp-content/uploads/2024/12/how-to-build-a-comprehensive-hospital-management.png",
     "link": "https://github.com/ashevkar/HospitalManagement"
   },
   {
-    "title": "Restaurant Discovery Platform",
+    "title": "AI-Powered Mood Tracker",
+    "skills": "MERN Stack, AI, Real-time Communication, Mood Tracking, Chatbot Development, MongoDB",
+    "description": "Built an AI-powered mood tracker and chatbot that provides daily mood tracking and real-time emotional support with insights into mood patterns.",
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQEKftvyCkACKQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1725552165452?e=1749081600&v=beta&t=I6vsTE2fVyd4CCiaEPkETQ0E0v3IYTbXgxXvDPWGd6I",
+    "link": "https://github.com/ashevkar/mental-health-chatbot"
+  },
+  {
+    "title": "Dynamic Dining Navigator",
     "skills": "Core Java, JDBC, OOP.",
-    "description": "Developed a Restaurant Discovery Platform with role-based access (Admin, Manager, User) for streamlined restaurant management and browsing. Integrated OOP, Inheritance, Collections, and JDBC for efficient data handling and smooth user experience.",
+    "description": "Created a role-based restaurant discovery platform enabling efficient management and seamless user experience through structured data handling.",
     "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80",
     "link": "https://github.com/ashevkar/Restaurant-Discovery"
+  },
+  {
+    "title": "Portfolio",
+    "skills": "React.js, Tailwind CSS, Express.js, Github, API, JSON",
+    "description": "Portfolio showcasing my expertise in full-stack development, cloud technologies, and AI-driven solutions, highlighting innovative, scalable web applications.",
+    "image": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-8a60-520a-a9e6-fe1286f3eb34/raw?se=2025-04-06T00%3A18%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=91e32e8a-b925-5b66-850c-9a338f8ecef1&skoid=d958ec58-d47c-4d2f-a9f2-7f3e03fdcf72&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-05T08%3A09%3A18Z&ske=2025-04-06T08%3A09%3A18Z&sks=b&skv=2024-08-04&sig=13gEVKR7iakyoeysLs9UsBZ2D5DzVJtAXhWZs1qmD4g%3D",
+    "link": "https://github.com/ashevkar/portfolio"
   }
+  
 ]

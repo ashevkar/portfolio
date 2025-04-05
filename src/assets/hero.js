@@ -19,38 +19,39 @@ const Hero = () => {
       </div>
       <div className="count">
         <div className="count-1">
-          <h2>3+</h2>
-          <p>Years of Experience</p>
+          <h2>75+</h2>
+          <p>LeetCode</p>
         </div>
         <div className="count-1">
           <h2>5+</h2>
           <p>Projects Completed</p>
         </div>
-        {/* <div class="count-1">
+        <div className="count-1">
           <h2>2+</h2>
-          <p>Collaborations</p>
-        </div> */}
+          <p>Years of Experience</p>
+        </div>
       </div>
 
       <div className="container-box">
         <div className="box">
-        <a id="arrow1" href="https://drive.google.com/file/d/1VgtSvjpUrQqb9QzLe7Z2fLQ3P5_9G0Yg/view">
-          <p id="color1">
-            RESUME
-            {/* <div className="next">
+          <a
+            id="arrow1"
+            href="https://drive.google.com/file/d/1VgtSvjpUrQqb9QzLe7Z2fLQ3P5_9G0Yg/view"
+          >
+            <p id="color1">
+              RESUME
+              {/* <div className="next">
                 <HiOutlineArrowRight />
             </div> */}
-          </p>
+            </p>
           </a>
 
-          <p id="color2">
-             EXPERIENCE
-            <div className="next">
-              <a id="arrow2" href="https://github.com/ashevkar">
-                {/* <HiOutlineArrowRight /> */}
-              </a>
-            </div>
-          </p>
+          {/* <p id="color2"> */}
+            {/* EXPERIENCE */}
+            {/* <div className="next"> */}
+              {/* <a id="arrow2" href="https://github.com/ashevkar">  </a> */}
+            {/* </div> */}
+          {/* </p> */}
         </div>
       </div>
     </div>

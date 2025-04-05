@@ -3,14 +3,13 @@ import pp from "./images/pp.png";
 import "./css/hero.css";
 import { Github, Linkedin, Mail } from "lucide-react";
 import TransitionWrapper from "./TransitionWrapper";
-import Hero from "./Hero";
+import Hero from "./hero";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Resume from "./Resume";
 
 const Layout = () => {
-
   return (
     <section id="hero" className="hero ">
       <div className="column-1">
@@ -28,8 +27,7 @@ const Layout = () => {
 
             <div className="">
               <p>
-                A Software Engineer who has developed countless innovative
-                solutions.
+              A passionate technologist crafting cutting-edge solutions that drive innovation and excellence.
               </p>
               <div className="luc-icons">
                 <a href="mailto:ashevkar@hawk.iit.edu">

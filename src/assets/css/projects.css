@@ -2,13 +2,15 @@
 
 .container-project {
   margin: 0 auto;
-  text-align: center;
+  width: 100%; /* Or a specific width depending on your layout */
+  max-width: 1200px; /* Optional: Set a max width for the container */
 }
 
 /* Grid Layout */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
+  grid-template-rows: auto;
   gap: 30px;
   justify-content: center;
 }
@@ -41,17 +43,15 @@
   position: absolute;
   bottom: 0px;
   left: 0;
-  width: 100%;
-  height: auto;
+  height: 75%;
   background-color: rgb(35, 34, 34);
   color: white;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  padding: 20px;
+  padding: 10px;
 }
-
 
 .project-card:hover .overlay {
   opacity: 1;
@@ -59,24 +59,23 @@
 
 /* Overlay Content */
 .overlay-content {
-  width: 90%;
+  width: 100%;
   text-align: left;
-  margin: 0;
 }
 
 .project-title {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
-  margin: 0;
 }
 .project-skills {
   font-size: 11px;
-  line-height: 25px;
-  margin: 0;
+  font-style: italic;
 }
 .project-description {
   opacity: 0.7;
-  font-size: 11px;
+  font-size: 10px;
+  overflow: hidden;
+  transition: max-height 0.9s ease; /* Smooth transition */
 }
 
 .project-link {

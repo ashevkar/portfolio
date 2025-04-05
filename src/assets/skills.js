@@ -36,18 +36,18 @@ const Skills = () => {
                   <span className="value-right">{skill.value}%</span>
                 </h3>
                 <div className="progress">
-                <motion.div
-                  className={`progress-bar ${skill.color} progress-bar-striped active`}
-                  role="progressbar"
-                  aria-valuenow={skill.value}
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  custom={skill.value}
-                  variants={barAnimation}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                ></motion.div>
+                  <motion.div
+                    className={`progress-bar ${skill.color} progress-bar-striped active`}
+                    role="progressbar"
+                    aria-valuenow={skill.value}
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    custom={skill.value}
+                    variants={barAnimation}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                  ></motion.div>
                 </div>
               </div>
             ))}
@@ -60,18 +60,18 @@ const Skills = () => {
                   <span className="value-right">{skill.value}%</span>
                 </h3>
                 <div className="progress">
-                <motion.div
-                  className={`progress-bar ${skill.color} progress-bar-striped active`}
-                  role="progressbar"
-                  aria-valuenow={skill.value}
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  custom={skill.value}
-                  variants={barAnimation}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                ></motion.div>
+                  <motion.div
+                    className={`progress-bar ${skill.color} progress-bar-striped active`}
+                    role="progressbar"
+                    aria-valuenow={skill.value}
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    custom={skill.value}
+                    variants={barAnimation}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                  ></motion.div>
                 </div>
               </div>
             ))}

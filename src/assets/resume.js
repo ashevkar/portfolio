@@ -28,7 +28,7 @@ const Resume = () => {
         "Implemented cross-browser and cross-device compatibility features to ensure seamless functionality across multiple platforms.",
         "Utilized JIRA for tracking development tasks and bug fixes, streamlining the agile workflow.",
         "Automated end-to-end testing with Cypress, Jest, reducing manual efforts by 30%.",
-        "Optimized frontend performance with lazy loading, code splitting for a seamless experience."
+        "Optimized frontend performance with lazy loading, code splitting for a seamless experience.",
       ],
     },
   ];
@@ -60,44 +60,42 @@ const Resume = () => {
         </div>
         <div className="resume-content">
           <div className="timeline-container">
-            
             <ul>
-
               <div className="education">
                 <TransitionWrapper>
-                <h3 className="heading">Education</h3>
+                  <h3 className="heading">Education</h3>
 
-                <div className="timeline">
-                  <li className="timeline-header">
-                    <div className="timeline-header-title"></div>
-                  </li>
-
-                  {education.map((item, index) => (
-                    <li
-                      key={index}
-                      className={`timeline-item ${
-                        index % 0 === 0
-                          ? "timeline-item-left"
-                          : "timeline-item-right"
-                      }`}
-                    >
-                      <div className="timeline-badge">
-                        <FaGraduationCap />
-                      </div>
-                      <div className="timeline-panel">
-                        <div className="timeline-panel-heading">
-                          <h3 className="timeline-title">{item.title}</h3>
-                          <span className="timeline-institution">
-                            {item.institution} - {item.duration}
-                          </span>
-                        </div>
-                        <div className="timeline-panel-body">
-                          <p>{item.description}</p>
-                        </div>
-                      </div>
+                  <div className="timeline">
+                    <li className="timeline-header">
+                      <div className="timeline-header-title"></div>
                     </li>
-                  ))}
-                </div>
+
+                    {education.map((item, index) => (
+                      <li
+                        key={index}
+                        className={`timeline-item ${
+                          index % 0 === 0
+                            ? "timeline-item-left"
+                            : "timeline-item-right"
+                        }`}
+                      >
+                        <div className="timeline-badge">
+                          <FaGraduationCap />
+                        </div>
+                        <div className="timeline-panel">
+                          <div className="timeline-panel-heading">
+                            <h3 className="timeline-title">{item.title}</h3>
+                            <span className="timeline-institution">
+                              {item.institution} - {item.duration}
+                            </span>
+                          </div>
+                          <div className="timeline-panel-body">
+                            <p>{item.description}</p>
+                          </div>
+                        </div>
+                      </li>
+                    ))}
+                  </div>
                 </TransitionWrapper>
               </div>
 
@@ -105,57 +103,56 @@ const Resume = () => {
 
               <div className="work-experience">
                 <TransitionWrapper>
-                <h3 className="heading">Work Experience</h3>
+                  <h3 className="heading">Work Experience</h3>
 
-                <div className="timeline">
-                  <li className="timeline-header">
-                    <div className="timeline-header-title"></div>
-                  </li>
-
-                  {workExperience.map((item, index) => (
-                    <li
-                      key={index}
-                      className={`timeline-item ${
-                        index % 0 === 0
-                          ? "timeline-item-left"
-                          : "timeline-item-right"
-                      }`}
-                    >
-                      <div className="timeline-badge">
-                        <FaSuitcase />
-                      </div>
-                      <div className="timeline-panel">
-                        <div className="timeline-panel-heading">
-                          <h3 className="timeline-title">{item.title}</h3>
-                          <span className="timeline-company">
-                            {item.company} - {item.duration}
-                          </span>
-                        </div>
-                        <div className="timeline-panel-body">
-                          {/* <p>{item.description}</p> */}
-                          {Array.isArray(item.description) &&
-                          item.description.length > 0 ? (
-                            <ul>
-                              {item.description.map((point, descIndex) => (
-                                <li
-                                  style={{ listStyleType: "disc" }}
-                                  key={descIndex}
-                                >
-                                  {point}
-                                </li>
-                              ))}
-                            </ul>
-                          ) : (
-                            <p>{item.description}</p>
-                          )}
-                        </div>
-                      </div>
+                  <div className="timeline">
+                    <li className="timeline-header">
+                      <div className="timeline-header-title"></div>
                     </li>
-                  ))}
-                </div>
+
+                    {workExperience.map((item, index) => (
+                      <li
+                        key={index}
+                        className={`timeline-item ${
+                          index % 0 === 0
+                            ? "timeline-item-left"
+                            : "timeline-item-right"
+                        }`}
+                      >
+                        <div className="timeline-badge">
+                          <FaSuitcase />
+                        </div>
+                        <div className="timeline-panel">
+                          <div className="timeline-panel-heading">
+                            <h3 className="timeline-title">{item.title}</h3>
+                            <span className="timeline-company">
+                              {item.company} - {item.duration}
+                            </span>
+                          </div>
+                          <div className="timeline-panel-body">
+                            {/* <p>{item.description}</p> */}
+                            {Array.isArray(item.description) &&
+                            item.description.length > 0 ? (
+                              <ul>
+                                {item.description.map((point, descIndex) => (
+                                  <li
+                                    style={{ listStyleType: "disc" }}
+                                    key={descIndex}
+                                  >
+                                    {point}
+                                  </li>
+                                ))}
+                              </ul>
+                            ) : (
+                              <p>{item.description}</p>
+                            )}
+                          </div>
+                        </div>
+                      </li>
+                    ))}
+                  </div>
                 </TransitionWrapper>
               </div>
-              
             </ul>
           </div>
         </div>
