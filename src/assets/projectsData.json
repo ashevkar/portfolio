@@ -3,7 +3,7 @@
     "title": "AI-Enhanced Retail Experience",
     "skills": "React.js, Tailwind CSS, Azure, API, JSON, AI chatbot",
     "description": "Developed a scalable e-commerce platform with dynamic features, AI-driven support, and streamlined deployment.",
-    "image": "https://media.licdn.com/dms/image/v2/D4D12AQGnA-5Vkk48eA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698320483594?e=2147483647&v=beta&t=g924VOpzUgBry3vE_U98xC-RsV8y0AvkuJMSC_M4ScM",
+    "image": "https://img.freepik.com/premium-vector/online-shopping-concept-with-people-scene-flat-cartoon-design-girl-chooses-new-sneakers_198565-8043.jpg?w=2000",
     "link": "https://github.com/ashevkarIIT/e-commerce"
   },
   {
@@ -14,25 +14,39 @@
     "link": "https://github.com/ashevkar/HospitalManagement"
   },
   {
-    "title": "AI-Powered Mood Tracker",
-    "skills": "MERN Stack, AI, Real-time Communication, Mood Tracking, Chatbot Development, MongoDB",
-    "description": "Built an AI-powered mood tracker and chatbot that provides daily mood tracking and real-time emotional support with insights into mood patterns.",
-    "image": "https://media.licdn.com/dms/image/v2/D5612AQEKftvyCkACKQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1725552165452?e=1749081600&v=beta&t=I6vsTE2fVyd4CCiaEPkETQ0E0v3IYTbXgxXvDPWGd6I",
-    "link": "https://github.com/ashevkar/mental-health-chatbot"
-  },
-  {
     "title": "Dynamic Dining Navigator",
     "skills": "Core Java, JDBC, OOP.",
     "description": "Created a role-based restaurant discovery platform enabling efficient management and seamless user experience through structured data handling.",
-    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80",
+    "image": "https://img.freepik.com/free-vector/flat-human-hands-hold-smartphone-with-mobile-app-ordering-fast-food-home-take-away-online-service-order-asian-italian-meals-pizza-burger-wok-box-with-noodles-delivery_88138-804.jpg?t=st=1744090338~exp=1744093938~hmac=f53bc3630ea93f014f67a43879cc5df789d829e384d0f5435d8ab9be6253b00e&w=2000",
     "link": "https://github.com/ashevkar/Restaurant-Discovery"
   },
+  {
+    "title": "AI-Powered Mood Tracker",
+    "skills": "MERN Stack, AI, Real-time Communication, Mood Tracking, Chatbot Development, MongoDB",
+    "description": "Built an AI-powered mood tracker and chatbot that provides daily mood tracking and real-time emotional support with insights into mood patterns.",
+    "image": "https://img.freepik.com/premium-vector/robotassisted-services-concept-with-person-interacting-with-chatbot-being-supported-by-medical-robot_269730-2433.jpg?w=2000",
+    "link": "https://github.com/ashevkar/mental-health-chatbot"
+  },
+
   {
     "title": "Portfolio",
     "skills": "React.js, Tailwind CSS, Express.js, Github, API, JSON",
     "description": "Portfolio showcasing my expertise in full-stack development, cloud technologies, and AI-driven solutions, highlighting innovative, scalable web applications.",
-    "image": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-8a60-520a-a9e6-fe1286f3eb34/raw?se=2025-04-06T00%3A18%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=91e32e8a-b925-5b66-850c-9a338f8ecef1&skoid=d958ec58-d47c-4d2f-a9f2-7f3e03fdcf72&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-05T08%3A09%3A18Z&ske=2025-04-06T08%3A09%3A18Z&sks=b&skv=2024-08-04&sig=13gEVKR7iakyoeysLs9UsBZ2D5DzVJtAXhWZs1qmD4g%3D",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-homepage-illustration_23-2149243391.jpg?t=st=1744090198~exp=1744093798~hmac=9b1e617cad70ced97c1aa63f106a06d1a181318a3515485dfa52ed906524bbe0&w=1800",
     "link": "https://github.com/ashevkar/portfolio"
+  },
+  {
+    "title": "Predictive Safety System with Intelligent Helmet for Coal Miners",
+    "skills": "Embedded C / C++, Python, Arduino IDE Language, HTML/CSS/JavaScript, ML",
+    "description": "An IoT-based intelligent helmet designed to enhance coal miner safety through real-time monitoring of environmental hazards, location tracking, and predictive alerts using sensors and machine learning.",
+    "image": "https://img.freepik.com/premium-photo/painting-construction-site-with-car-crane_1086760-343921.jpg?w=2000",
+    "link": ""
+  },
+  {
+    "title": "The Online Gallery for Masterpieces",
+    "skills": "React.js, Tailwind CSS, Java, API, MySQL",
+    "description": "A web-based platform enabling artists to showcase and sell their artwork online while allowing customers to browse and purchase unique creations.",
+    "image": "https://img.freepik.com/free-vector/new-normal-museums-concept_23-2148587936.jpg?t=st=1744092102~exp=1744095702~hmac=0c510768e526c11317491bbce740c72caccb411e965d48f3bc015463c054fa1a&w=2000",
+    "link": ""
   }
-  
 ]
