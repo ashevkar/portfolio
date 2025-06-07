@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c763af25.css",
-    "main.js": "/portfolio/static/js/main.fd455528.js",
+    "main.css": "/portfolio/static/css/main.65de12a5.css",
+    "main.js": "/portfolio/static/js/main.f39bf109.js",
+    "static/media/coal.png": "/portfolio/static/media/coal.7ac28c547b9ab453d35e.png",
+    "static/media/footwear.png": "/portfolio/static/media/footwear.241be1ba5b7d5eceecd7.png",
+    "static/media/restaurant.png": "/portfolio/static/media/restaurant.7b0ff5c95dead8c739f7.png",
+    "static/media/mood.png": "/portfolio/static/media/mood.86bbee111f26bc9635d9.png",
+    "static/media/art.png": "/portfolio/static/media/art.15689710211e8ef84cd6.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.2a4227fe2a9ecc3f5e3a.png",
     "static/media/pp.png": "/portfolio/static/media/pp.a5b4fd337b0257904aab.png",
+    "static/media/ring.png": "/portfolio/static/media/ring.82dd28c209d64727f98b.png",
+    "static/media/doctor.png": "/portfolio/static/media/doctor.d75f9f584a9333f48158.png",
+    "static/media/orkut.png": "/portfolio/static/media/orkut.86304c70fdb50515ee72.png",
+    "static/media/pic.jpeg": "/portfolio/static/media/pic.c65a23e02f4ffe7790de.jpeg",
     "index.html": "/portfolio/index.html",
     "static/media/box1.svg": "/portfolio/static/media/box1.cda992000334bdee5439.svg",
     "static/media/box2.svg": "/portfolio/static/media/box2.1a48e74c4876a8c97444.svg",
-    "main.c763af25.css.map": "/portfolio/static/css/main.c763af25.css.map",
-    "main.fd455528.js.map": "/portfolio/static/js/main.fd455528.js.map"
+    "main.65de12a5.css.map": "/portfolio/static/css/main.65de12a5.css.map",
+    "main.f39bf109.js.map": "/portfolio/static/js/main.f39bf109.js.map"
   },
   "entrypoints": [
-    "static/css/main.c763af25.css",
-    "static/js/main.fd455528.js"
+    "static/css/main.65de12a5.css",
+    "static/js/main.f39bf109.js"
   ]
 }
