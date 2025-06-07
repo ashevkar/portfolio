@@ -1,13 +1,14 @@
 import React from "react";
-import pp from "./images/pp.png";
-import "./css/hero.css";
+import pp from "../../assets/images/pp.png";
+import "../../assets/css/hero.css";
 import { Github, Linkedin, Mail } from "lucide-react";
-import TransitionWrapper from "./TransitionWrapper";
-import Hero from "./hero";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Resume from "./Resume";
+import TransitionWrapper from "../common/TransitionWrapper";
+import Hero from "../section/Hero";
+import Skills from "../section/Skills";
+import Projects from "../section/Projects";
+import Contact from "../section/Contact";
+import Resume from "../section/Resume";
+import profileImage from "../../assets/images/pic.jpeg"
 
 const Layout = () => {
   return (
@@ -17,7 +18,7 @@ const Layout = () => {
           <p className="line1"></p>
           <p className="line2"></p>
           <div className="pic">
-            <img src={pp} alt="Aishwarya Shevkar" />
+            <img src={profileImage} alt="Aishwarya Shevkar" />
           </div>
 
           <div className="icons">

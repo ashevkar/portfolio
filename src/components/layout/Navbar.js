@@ -1,5 +1,5 @@
 import React from 'react';
-import './navbar.css';
+import '../layout/Navbar.css';
 import { FaHome, FaProjectDiagram, FaFolderOpen, FaAddressBook, FaFileAlt } from 'react-icons/fa';
 import { Link as ScrollLink } from 'react-scroll';
 

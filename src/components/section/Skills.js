@@ -1,6 +1,6 @@
 import React from "react";
-import "./css/skills.css";
-import TransitionWrapper from "./TransitionWrapper";
+import '../../assets/css/skills.css';
+import TransitionWrapper from "../common/TransitionWrapper";
 import { motion } from "framer-motion";
 
 const Skills = () => {

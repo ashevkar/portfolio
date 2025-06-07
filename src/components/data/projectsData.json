@@ -1,30 +1,46 @@
+
+
 [
+  {
+    "title": "Ring Atelier - Global Payment System",
+    "skills": "Kafka, Java, PostgreSQL",
+    "description": "Developed a secure, multi-method payment system for Ring Atelier, integrating real-time monitoring and custom fallback logic to enhance fraud detection and reduce cart abandonment by 25%.",
+    "image": "ring.png",
+    "link": "https://ringatelier.com/"
+  },
+    {
+    "title": "Orkut - Social Media",
+    "skills": "Next.js, Typescript, PostgreSQL",
+    "description": "Built a scalable social media platform with live chat, secure authentication, and interactive user timelines using Next.js, TypeScript, Prisma, and PostgreSQL, deployed on Vercel with Agile practices.",
+    "image": "orkut.png",
+    "link": "https://final-project-inky-six.vercel.app/"
+  },
   {
     "title": "AI-Enhanced Retail Experience",
     "skills": "React.js, Tailwind CSS, Azure, API, JSON, AI chatbot",
     "description": "Developed a scalable e-commerce platform with dynamic features, AI-driven support, and streamlined deployment.",
-    "image": "https://img.freepik.com/premium-vector/online-shopping-concept-with-people-scene-flat-cartoon-design-girl-chooses-new-sneakers_198565-8043.jpg?w=2000",
-    "link": "https://github.com/ashevkarIIT/e-commerce"
+    "image": "footwear.png",
+    "link": "https://ecommerce-website-three-bay.vercel.app/"
   },
   {
     "title": "Innovative Role-Driven Healthcare Platform",
     "skills": "Core Java, JSF, MySQL, MVC Architecture, J2EE.",
     "description": "Built a role-based hospital management system with efficient scheduling, patient management, and user-friendly dashboards.",
-    "image": "https://sellbery.com/wp-content/uploads/2024/12/how-to-build-a-comprehensive-hospital-management.png",
+    "image": "doctor.png",
     "link": "https://github.com/ashevkar/HospitalManagement"
   },
   {
     "title": "Dynamic Dining Navigator",
     "skills": "Core Java, JDBC, OOP.",
     "description": "Created a role-based restaurant discovery platform enabling efficient management and seamless user experience through structured data handling.",
-    "image": "https://img.freepik.com/free-vector/flat-human-hands-hold-smartphone-with-mobile-app-ordering-fast-food-home-take-away-online-service-order-asian-italian-meals-pizza-burger-wok-box-with-noodles-delivery_88138-804.jpg?t=st=1744090338~exp=1744093938~hmac=f53bc3630ea93f014f67a43879cc5df789d829e384d0f5435d8ab9be6253b00e&w=2000",
+    "image": "restaurant.png",
     "link": "https://github.com/ashevkar/Restaurant-Discovery"
   },
   {
     "title": "AI-Powered Mood Tracker",
     "skills": "MERN Stack, AI, Real-time Communication, Mood Tracking, Chatbot Development, MongoDB",
     "description": "Built an AI-powered mood tracker and chatbot that provides daily mood tracking and real-time emotional support with insights into mood patterns.",
-    "image": "https://img.freepik.com/premium-vector/robotassisted-services-concept-with-person-interacting-with-chatbot-being-supported-by-medical-robot_269730-2433.jpg?w=2000",
+    "image": "mood.png",
     "link": "https://github.com/ashevkar/mental-health-chatbot"
   },
 
@@ -32,21 +48,22 @@
     "title": "Portfolio",
     "skills": "React.js, Tailwind CSS, Express.js, Github, API, JSON",
     "description": "Portfolio showcasing my expertise in full-stack development, cloud technologies, and AI-driven solutions, highlighting innovative, scalable web applications.",
-    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-homepage-illustration_23-2149243391.jpg?t=st=1744090198~exp=1744093798~hmac=9b1e617cad70ced97c1aa63f106a06d1a181318a3515485dfa52ed906524bbe0&w=1800",
+    "image": "portfolio.png",
     "link": "https://github.com/ashevkar/portfolio"
   },
   {
     "title": "Predictive Safety System with Intelligent Helmet for Coal Miners",
     "skills": "Embedded C / C++, Python, Arduino IDE Language, HTML/CSS/JavaScript, ML",
     "description": "An IoT-based intelligent helmet designed to enhance coal miner safety through real-time monitoring of environmental hazards, location tracking, and predictive alerts using sensors and machine learning.",
-    "image": "https://img.freepik.com/premium-photo/painting-construction-site-with-car-crane_1086760-343921.jpg?w=2000",
+    "image": "coal.png",
     "link": ""
   },
   {
     "title": "The Online Gallery for Masterpieces",
     "skills": "React.js, Tailwind CSS, Java, API, MySQL",
     "description": "A web-based platform enabling artists to showcase and sell their artwork online while allowing customers to browse and purchase unique creations.",
-    "image": "https://img.freepik.com/free-vector/new-normal-museums-concept_23-2148587936.jpg?t=st=1744092102~exp=1744095702~hmac=0c510768e526c11317491bbce740c72caccb411e965d48f3bc015463c054fa1a&w=2000",
+    "image": "art.png",
     "link": ""
   }
+  
 ]

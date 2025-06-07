@@ -1,34 +1,29 @@
 import React from "react";
-import "./css/resume.css"; // Importing the CSS file
+import '../../assets/css/resume.css';
 import { FaGraduationCap } from "react-icons/fa6";
 import { FaSuitcase } from "react-icons/fa6";
-import TransitionWrapper from "./TransitionWrapper";
+import TransitionWrapper from "../common/TransitionWrapper";
 
 const Resume = () => {
   const workExperience = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       company: "Anikaay Integration",
       duration: "Mar 2022 – Jun 2023",
       description: [
-        "Developed and maintained dynamic web applications using React.js, Node.js, and Redux, ensuring high performance and a seamless user experience.",
-        "Integrated third-party APIs (e.g., payment gateways, weather APIs) and optimized frontend performance with lazy loading, code splitting, and web vitals, achieving a 15% faster load time.",
-        "Led the design and implementation of new features using MongoDB, Express.js, and RESTful APIs, enhancing user engagement and improving application scalability.",
-        "Collaborated with cross-functional teams including product managers and UI/UX designers, utilizing JIRA for task tracking, Git for version control, and Agile methodologies for iterative development.",
-        "Utilized Git for version control, JIRA for Agile project management, and Docker for streamlined CI/CD and deployment processes.",
-        "Worked on building new features and improving product functionality in a fast-paced startup environment, adapting quickly to evolving requirements.",
+        "Developed e-commerce platform, streamlined payment processing. The system led to a total cost savings of $1 million annually, increased sales by 300% and reduced 80% processing time",
+        "Spearheaded secure payment integration, customer order processing and reduced 30% transaction failures by implementing Agile methodologies using GO, PostgreSQL, Kafka & Java ",
+        "Designed service oriented architecture, resulting in thousands of seamless payment transfers. Managed team of 17 including 7 engineers, 4 architects & 6 testers. ",
       ],
     },
     {
-      title: "Frontend Developer",
+      title: "Software Development Engineer",
       company: "GlobalStep",
       duration: "Aug 2020 – Mar 2022",
       description: [
-        "Developed and maintained responsive web applications using AngularJS, React.js, and JavaScript, enhancing user experience and performance.",
-        "Implemented cross-browser and cross-device compatibility features to ensure seamless functionality across multiple platforms.",
-        "Utilized JIRA for tracking development tasks and bug fixes, streamlining the agile workflow.",
-        "Automated end-to-end testing with Cypress, Jest, reducing manual efforts by 30%.",
-        "Optimized frontend performance with lazy loading, code splitting for a seamless experience.",
+        "Built 3D game features across multiple platforms, resulting in a 20% increase in player engagement, session duration and user experience using industry standard tools and engines.",
+        "Directed a team of 50 developers and testers, implementing new gameplay features, leading to a 15% faster development  cycle and reduction in 25% post-release bugs.",
+        "Optimized game performance by debugging and refining code, achieving a 40% reduction in errors & reducing crash rates across supported devices.",
       ],
     },
   ];
@@ -37,16 +32,16 @@ const Resume = () => {
     {
       title: "Masters Degree",
       institution: "Illinois Institute of Technology",
-      duration: "Expected May 2025",
+      duration: "May 2025",
       description:
-        "Key Courses: Advanced Software Engineering, Data Structures and Algorithms, Web Application Development, Cloud Computing and DevOps, Database Systems and Management.",
+        "Coursework: Object-oriented programming, Advanced Software Programming, Full Stack Development, System Design   ",
     },
     {
       title: "Bachelors Degree",
       institution: "Jayawantrao Sawant College of Engineering",
-      duration: "June 2016 - April 2020",
+      duration: "April 2020",
       description:
-        "Key Courses: C, Data Structures, Java, Software Modeling, Data Analytics, Database Management.",
+        "Relevant Coursework: Data Structures, Analysis of Algorithm, Software Modeling, Data Analytics, Database Management",
     },
   ];
 

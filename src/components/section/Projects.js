@@ -1,7 +1,28 @@
 import React from "react";
-import projectsData from "./projectsData.json";
-import "./css/projects.css";
+import projectsData from "../data/projectsData.json";
+import "../../assets/css/projects.css";
 import { ExternalLink } from "lucide-react";
+import ringImage from "../../assets/images/ring.png";
+import orkutImage from "../../assets/images/orkut.png";
+import footwearImage from "../../assets/images/footwear.png";
+import doctorImage from "../../assets/images/doctor.png";
+import restImage from "../../assets/images/restaurant.png";
+import moodImage from "../../assets/images/mood.png";
+import portfolioImage from "../../assets/images/portfolio.png";
+import coalImage from "../../assets/images/coal.png";
+import artImage from "../../assets/images/art.png";
+
+const images = {
+  "ring.png": ringImage,
+  "orkut.png": orkutImage,
+  "footwear.png": footwearImage,
+  "doctor.png": doctorImage,
+  "restaurant.png": restImage,
+  "mood.png": moodImage,
+  "portfolio.png": portfolioImage,
+  "coal.png": coalImage,
+  "art.png": artImage,
+};
 
 const Projects = () => {
   return (
@@ -12,7 +33,7 @@ const Projects = () => {
           {projectsData.map((project, index) => (
             <div key={index} className="project-card">
               <img
-                src={project.image}
+                src={images[project.image]}
                 alt={project.title}
                 className="project-image"
               />
