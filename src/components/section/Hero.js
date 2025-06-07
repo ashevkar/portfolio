@@ -3,6 +3,9 @@ import "../../assets/css/hero.css";
 // import { HiOutlineArrowRight } from "react-icons/hi";
 // import AnimatedNumbers from 'react-animated-numbers';
 import { useSpring, animated } from "react-spring";
+import { FiCoffee } from "react-icons/fi";
+import { FaLaptopCode } from "react-icons/fa";
+import { MdOutlineAccessTime } from "react-icons/md";
 
 function Number({ n }) {
   const { number } = useSpring({
@@ -10,22 +13,23 @@ function Number({ n }) {
     number: n,
     delay: 200,
     reset: true,
-    config: { mass: 1,  tension: 80, friction: 40  },
+    config: { mass: 1, tension: 80, friction: 40 },
   });
   return (
-<div
-  style={{
-    fontSize: "3rem",
-    fontWeight: "bold",
-    width: "150px",
-    height: "50px",
-    display: "flex",
-    alignItems: "center",
-  }}
->
-  <animated.span>{number.to((n) => n.toFixed(0))}</animated.span>
-  <span>+</span>
-</div>
+    <div
+      style={{
+        fontSize: "2rem",
+        fontWeight: "bold",
+        // width: "150px",
+        // height: "50px",
+        display: "flex",
+        alignItems: "center",
+        justifyItems: "center",
+      }}
+    >
+      <animated.span>{number.to((n) => n.toFixed(0))}</animated.span>
+      <span>+</span>
+    </div>
   );
 }
 
@@ -44,21 +48,26 @@ const Hero = () => {
         </p>
       </div>
       <div className="count">
-        <div className="count-1">
-          <Number n={105} />
-          <p>LeetCode</p>
-        </div>
+    
 
         <div className="count-1">
-          <Number n={8.5} />
+          <FaLaptopCode style={{ fontSize: "1.5rem"}}/>
+          <Number n={15} />
 
           <p>Projects Completed</p>
         </div>
+            <div className="count-1">
+          <MdOutlineAccessTime style={{ fontSize: "1.5rem"}} />
+          <Number n={105} />
+
+          <p>LeetCode Problem Solved</p>
+        </div>
 
         <div className="count-1">
-          <Number n={2.5} />
+          <FiCoffee style={{ fontSize: "1.5rem"}}/>
+          <Number n={2000} />
 
-          <p>Years of Experience</p>
+          <p>Coffee Cups</p>
         </div>
       </div>
 
