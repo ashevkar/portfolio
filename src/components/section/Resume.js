@@ -11,20 +11,20 @@ const Resume = () => {
       company: "Anikaay Integration",
       duration: "Mar 2022 – Jun 2023",
       description: [
-        "Developed e-commerce platform, streamlined payment processing. The system led to a total cost savings of $1 million annually, increased sales by 300% and reduced 80% processing time",
-        "Spearheaded secure payment integration, customer order processing and reduced 30% transaction failures by implementing Agile methodologies using GO, PostgreSQL, Kafka & Java ",
-        "Designed service oriented architecture, resulting in thousands of seamless payment transfers. Managed team of 17 including 7 engineers, 4 architects & 6 testers. ",
-      ],
+    "Developed a scalable luxury e-commerce platform used by over 1 million users, optimizing product customization workflows and dynamic UI rendering, resulting in a 60% increase in customer engagement and 70% faster load times on high-resolution product pages.",
+    "Integrated real-time inventory, pricing, and product configuration using REST APIs, enhancing customer experience and improving conversion rates by 25% with technologies such as React.js, Tailwind CSS, Next.js, and TypeScript.",
+    "Architected a modular, component-driven system ensuring mobile responsiveness, accessibility, and rapid deployment. Collaborated with a cross-functional team of 6 to deliver high-impact features efficiently."
+  ],
     },
     {
       title: "Software Development Engineer",
       company: "GlobalStep",
       duration: "Aug 2020 – Mar 2022",
       description: [
-        "Built 3D game features across multiple platforms, resulting in a 20% increase in player engagement, session duration and user experience using industry standard tools and engines.",
-        "Directed a team of 50 developers and testers, implementing new gameplay features, leading to a 15% faster development  cycle and reduction in 25% post-release bugs.",
-        "Optimized game performance by debugging and refining code, achieving a 40% reduction in errors & reducing crash rates across supported devices.",
-      ],
+       "Built internal productivity tools for QA testers using Java, SQL, and React, resulting in a 20% increase in team efficiency, workflow automation, and internal user satisfaction.",
+    "Directed a cross-functional team of 50 developers and QA engineers, implementing new features and backend integrations, leading to a 15% faster development cycle and 40% fewer tool-related issues.",
+    "Optimized system performance by tuning backend processes and APIs, achieving a 40% reduction in errors and improving responsiveness across internal platforms."
+ ],
     },
   ];
 
