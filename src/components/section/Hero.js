@@ -1,37 +1,39 @@
 import React from "react";
 import "../../assets/css/hero.css";
-// import { HiOutlineArrowRight } from "react-icons/hi";
-// import AnimatedNumbers from 'react-animated-numbers';
 import { useSpring, animated } from "react-spring";
 import { FiCoffee } from "react-icons/fi";
 import { FaLaptopCode } from "react-icons/fa";
 import { MdOutlineAccessTime } from "react-icons/md";
+import PropTypes from "prop-types";
+
 
 function Number({ n }) {
   const { number } = useSpring({
     from: { number: 0 },
     number: n,
-    delay: 200,
+    delay: 5,
     reset: true,
-    config: { mass: 1, tension: 80, friction: 40 },
+    config: { mass: 1, tension: 60, friction: 50 },
   });
   return (
     <div
       style={{
         fontSize: "2rem",
         fontWeight: "bold",
-        // width: "150px",
-        // height: "50px",
         display: "flex",
         alignItems: "center",
         justifyItems: "center",
       }}
     >
+      
       <animated.span>{number.to((n) => n.toFixed(0))}</animated.span>
       <span>+</span>
     </div>
   );
 }
+Number.propTypes = {
+  n: PropTypes.number.isRequired,
+};
 
 const Hero = () => {
   return (
@@ -65,7 +67,7 @@ const Hero = () => {
 
         <div className="count-1">
           <FiCoffee style={{ fontSize: "1.5rem"}}/>
-          <Number n={2000} />
+          <Number n={200} />
 
           <p>Coffee Cups</p>
         </div>

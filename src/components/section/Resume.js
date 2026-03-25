@@ -1,5 +1,5 @@
 import React from "react";
-import '../../assets/css/resume.css';
+import "../../assets/css/resume.css";
 import { FaGraduationCap } from "react-icons/fa6";
 import { FaSuitcase } from "react-icons/fa6";
 import TransitionWrapper from "../common/TransitionWrapper";
@@ -8,23 +8,33 @@ const Resume = () => {
   const workExperience = [
     {
       title: "Software Developer",
+      company: "Arizona State University",
+      duration: "Aug 2025 – Present",
+      description: [
+        "Built and maintained a research collaboration platform supporting 100+ concurrent users, streamlining grant discovery and multi-role workflows",
+        "Led product lifecycle end-to-end — from requirements and prototyping to AI-powered search features that enabled semantic discovery across thousands of research records",
+        "Scaled 5+ production services, established CI/CD pipelines, and drove cross-functional collaboration across 3 teams",
+      ],
+    },
+    {
+      title: "Software Developer",
       company: "Anikaay Integration",
       duration: "Mar 2022 – Jun 2023",
       description: [
-    "Developed a scalable luxury e-commerce platform used by over 1 million users, optimizing product customization workflows and dynamic UI rendering, resulting in a 60% increase in customer engagement and 70% faster load times on high-resolution product pages.",
-    "Integrated real-time inventory, pricing, and product configuration using REST APIs, enhancing customer experience and improving conversion rates by 25% with technologies such as React.js, Tailwind CSS, Next.js, and TypeScript.",
-    "Architected a modular, component-driven system ensuring mobile responsiveness, accessibility, and rapid deployment. Collaborated with a cross-functional team of 6 to deliver high-impact features efficiently."
-  ],
+        "Directed microservices migration for 2M users, reducing load times by 40% and maintaining 99.9% uptime while resolving legacy bottlenecks.",
+        "Designed APIs and CI/CD pipelines that increased data throughput by 25%, cut deployment time by 30%, and improved reliability across 10+ services.",
+        "Mentored 4 junior engineers, reducing production issues by 20%, and collaborated with product to hit 100% of quarterly roadmap goals.",
+      ],
     },
     {
-      title: "Software Development Engineer",
+      title: "Software Developer",
       company: "GlobalStep",
       duration: "Aug 2020 – Mar 2022",
       description: [
-       "Built internal productivity tools for QA testers using Java, SQL, and React, resulting in a 20% increase in team efficiency, workflow automation, and internal user satisfaction.",
-    "Directed a cross-functional team of 50 developers and QA engineers, implementing new features and backend integrations, leading to a 15% faster development cycle and 40% fewer tool-related issues.",
-    "Optimized system performance by tuning backend processes and APIs, achieving a 40% reduction in errors and improving responsiveness across internal platforms."
- ],
+        "Led full-stack development of a customer portal, launching 4 major feature releases within the first year while integrating secure payment gateways enabling 1,000+ monthly transactions.",
+        "Optimized database performance and implemented testing practices, reducing latency to under 200ms and resolving 25+ bugs per sprint before user acceptance testing.",
+        "Streamlined developer workflows through Git flow and API documentation, enabling seamless collaboration across 5 developers and reducing engineer onboarding time to 3 days.",
+      ],
     },
   ];
 

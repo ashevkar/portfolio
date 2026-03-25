@@ -1,5 +1,3 @@
-
-
 [
   {
     "title": "Ring Atelier - Global Payment System",
@@ -8,13 +6,28 @@
     "image": "ring.png",
     "link": "https://ringatelier.com/"
   },
-    {
+  {
+    "title": "AI-Powered Inventory Tracker",
+    "skills": "Next.js, React, Firebase, OpenAI API, Material-UI",
+    "description": "Developed a smart food inventory management system with real-time tracking, AI-powered image recognition for adding items, and recipe suggestions based on available ingredients.",
+    "image": "pantry.png",
+    "link": "https://inventory-tracker-jet.vercel.app"
+  },
+  {
     "title": "Orkut - Social Media",
     "skills": "Next.js, Typescript, PostgreSQL",
     "description": "Built a scalable social media platform with live chat, secure authentication, and interactive user timelines using Next.js, TypeScript, Prisma, and PostgreSQL, deployed on Vercel with Agile practices.",
     "image": "orkut.png",
     "link": "https://final-project-inky-six.vercel.app/"
   },
+  {
+    "title": "UI Builder Assistant – Visa Design System",
+    "skills": "React, TypeScript, Node.js, Express, Vite",
+    "description": "Built a developer tool that converts natural language input into component suggestions and code snippets using the Visa Product Design System, featuring an accessibility-first design and onboarding tour.",
+    "image": "visa.png",
+    "link": "https://visa-design-frontend.onrender.com"
+  },
+
   {
     "title": "AI-Enhanced Retail Experience",
     "skills": "React.js, Tailwind CSS, Azure, API, JSON, AI chatbot",
@@ -35,6 +48,13 @@
     "description": "Created a role-based restaurant discovery platform enabling efficient management and seamless user experience through structured data handling.",
     "image": "restaurant.png",
     "link": "https://github.com/ashevkar/Restaurant-Discovery"
+  },
+  {
+    "title": "AI Flashcard SaaS",
+    "skills": "Next.js, React, Firebase, OpenAI API, Stripe, Clerk",
+    "description": "Created an AI-powered flashcard SaaS with subscription billing via Stripe, user authentication via Clerk, and AI-generated study cards using OpenAI, deployed on Vercel.",
+    "image": "flashcard.png",
+    "link": "https://flashcard-saas-rho.vercel.app"
   },
   {
     "title": "AI-Powered Mood Tracker",
@@ -65,5 +85,4 @@
     "image": "art.png",
     "link": ""
   }
-  
 ]

@@ -11,6 +11,9 @@ import moodImage from "../../assets/images/mood.png";
 import portfolioImage from "../../assets/images/portfolio.png";
 import coalImage from "../../assets/images/coal.png";
 import artImage from "../../assets/images/art.png";
+import pantryImage from "../../assets/images/pantry.png";
+import visaImage from "../../assets/images/visa.png";
+import flashcard from "../../assets/images/flashcard.png";
 
 const images = {
   "ring.png": ringImage,
@@ -22,6 +25,9 @@ const images = {
   "portfolio.png": portfolioImage,
   "coal.png": coalImage,
   "art.png": artImage,
+  "pantry.png": pantryImage,
+  "visa.png": visaImage,
+  "flashcard.png": flashcard,
 };
 
 const Projects = () => {
@@ -44,7 +50,7 @@ const Projects = () => {
                   <p className="project-description">
                     Description: {project.description}
                   </p>
-                  <a href={project.link} className="project-link">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
                     View Project <ExternalLink size={16} />
                   </a>
                 </div>

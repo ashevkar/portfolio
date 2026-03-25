@@ -1,7 +1,9 @@
 import React from "react";
-import pp from "../../assets/images/pp.png";
 import "../../assets/css/hero.css";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { IoIosMail } from "react-icons/io";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
+
 import TransitionWrapper from "../common/TransitionWrapper";
 import Hero from "../section/Hero";
 import Skills from "../section/Skills";
@@ -31,14 +33,14 @@ const Layout = () => {
               A passionate technologist crafting cutting-edge solutions that drive innovation and excellence.
               </p>
               <div className="luc-icons">
-                <a href="mailto:ashevkar@hawk.iit.edu">
-                  <Mail />
+                <a href="mailto:aishshevkar@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <IoIosMail style={{ fontSize: "1.5rem"}}/>
                 </a>
-                <a href="https://www.linkedin.com/in/aishwarya-shevkar/">
-                  <Linkedin />
+                <a href="https://www.linkedin.com/in/aish06/"target="_blank" rel="noopener noreferrer">
+                  <FaLinkedin style={{ fontSize: "1.5rem"}}/>
                 </a>
-                <a href="https://github.com/ashevkar">
-                  <Github />
+                <a href="https://github.com/ashevkar" target="_blank" rel="noopener noreferrer">
+                  <FaGithub style={{ fontSize: "1.5rem"}}/>
                 </a>
               </div>
             </div>
